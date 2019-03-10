@@ -1,13 +1,12 @@
-.border {
-    margin-left: 22%;
-    margin-right:22%;
-    min-width: 56%;
-}
-
 body {
-    font-family: lato;
     margin-top:0px;
     margin-bottom: 0px;
+    font-family: lato;
+}
+
+.border {
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
 nav {
@@ -17,19 +16,19 @@ nav {
 
 .nav {
     float: left;
-    margin: 10px;
-    margin-top: 0px; 
     padding: 5px;
-    font-size: 15px;
-    font-weight: 700;
+    margin: 0% 10px 2%;
     color: #404B55;
     opacity: 0.8;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #logo {
     float: left;
-    font-weight: 700;
     font-size: 20px;
+    font-weight: 700;
 }
 
 #head {
@@ -40,38 +39,37 @@ nav {
 }
 
 .button {
-    background-color: #55b68b;
+    float: left;
     padding: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    float:left;
+    border-radius: 5px;
     box-shadow: 0px 3px 5px #4b7c67;
+    background-color: #55b68b;
     color: white;
 }
-
 #button-nav {
-    text-align: center;
     box-shadow: none;
+    text-align: center;
 }
 
 #button-down {
     float: none;
+    display: block;
     height: auto;
+    margin: 3% 40% 9%;
+    text-decoration: none;
     text-align: center;
-    margin-bottom: 100px;
-    margin-left: 40%;
-    margin-right: 40%; 
-    margin-top: 5%
 }
 
 #button-watch {
     display: flex;
     align-items: baseline;
 }
+#button-watch a {
+    font-size: 20px;
+    text-decoration: none;
+}
 
-#button-margin { margin-right: 3% }
+#button-margin {margin-right: 3%}
 
 .landing-page {
     height: 450px;
@@ -79,45 +77,38 @@ nav {
     background-position: center;
 }
 
-#header3 {
-    margin-left: 22% ;
-    margin-right: 22%;
-    text-align: left;
-    font-family: lato;
+.landing-page--in {
     position: relative;
+    max-width: 35%;
     top: 50%;
     transform: translateY(-50%);
+
 }
 
-#header3 h1 {
-    font-weight: 900;
+.landing-page--in h1 {
     font-size: 52px;
+    font-weight: 900;
     line-height: 56px; 
-    color: white;
+    text-align: left;
 }
 
-#p1 {
+.landing-page--in p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.border {
     font-size: 22px;
-    line-height: 26px; 
-    color: white;
-}
-
-#p2 {
-    color: white;
-}
-
-#p3 {
-    text-align: center;
-    font-size: 22px;
-    line-height: 26px;
     font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 }
 
 .border h2 {
-    text-align: center;
-    font-weight: 900;
     font-size: 42px; 
+    font-weight: 900;
     line-height: 46px;
+    text-align: center;
 }
 
 h3 {
@@ -125,24 +116,15 @@ h3 {
     font-weight: 900;
 }
 
-#under {
-    text-align: center;
-}
+#under {text-align: center}
 
 .cours {
     float: left;
     width: 27%;
-    margin-bottom: 40px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: white;
+    padding: 2% 1.5% 5%;
+    border-radius: 5px;
+    margin-bottom: 5%;
     text-align: center;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
-    padding-top: 2%;
-    padding-bottom: 5%;
 }
 
 #courses {
@@ -154,63 +136,60 @@ h3 {
 .gray {background-color: #525e6c}
 .blue {background-color: #439fe0}
 .green {background-color: #55b68b}
+.white-text{color: white}
 
 .button-cours {
+    display: block;
+    padding: 3% 4%;
     border-style: solid;
     border-color: white;
     border-width: 3px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 15px;
-    margin-left: 27%;
-    margin-right: 27%;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .box-text {
-    opacity: 0.7;
     margin-top: 7%;
     margin-bottom: 7%;
+    opacity: 0.7;
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 .box-title {
     margin-top: 5%;
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
 }
 
-.box-title i {
-    margin-right: 3%;
-}
-
-.box-title a {
-    margin-left: 8%;
-}
+.box-title i {margin-right: 3%}
+.box-title a {margin-left: 8%}
 
 #stop {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-size: 15px;
-    font-weight: 700;
     margin-bottom: 0;
     margin-left: 22%;
     margin-right: 22%;
+    opacity: 0.5;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 0;
-    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 footer {
-    background-color: #f0f1f5;
     height: 120px;
+    background-color: #f0f1f5;
 }
 
 footer div i {
-    padding: 15px;
+    padding: 10px;
     margin-top: 20px;
+    color: dimgrey;
 }
