@@ -1,13 +1,12 @@
 @media only screen and (min-width: 960px) {
     body {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0;
         font-family: lato;
     }
 
     .border {
-        margin-left: 22%;
-        margin-right: 22%;
+        margin-left: 21%;
+        margin-right: 21%;
     }
 
     nav {
@@ -16,14 +15,19 @@
     }
 
     .nav {
+        display: flex;
         float: left;
         padding: 5px;
-        margin: 0% 10px 2%;
+        margin: 0 0 10px 15px;
         color: #404B55;
         opacity: 0.8;
         font-size: 15px;
         font-weight: 700;
         text-decoration: none;
+    }
+
+    .ham-menu {
+        display: none;
     }
 
     #logo {
@@ -49,6 +53,7 @@
         text-decoration: none;
     }
     #button-nav {
+        margin-left: 0;
         box-shadow: none;
         text-align: center;
     }
@@ -82,10 +87,9 @@
 
     .landing-page--in {
         position: relative;
-        max-width: 35%;
+        max-width: 40%;
         top: 50%;
         transform: translateY(-50%);
-
     }
 
     .landing-page--in h1 {
@@ -98,20 +102,24 @@
     .landing-page--in p {
         font-size: 20px;
         text-align: left;
+        margin-bottom: 3%
     }
 
-    .border {
+    #before-courses {
         font-size: 22px;
         font-weight: 400;
         line-height: 26px;
         text-align: center;
     }
 
-    .border h2 {
+    #before-courses >h2 {
         font-size: 42px; 
         font-weight: 900;
         line-height: 46px;
         text-align: center;
+        margin-top: 5%;
+        color: #404B55;
+        opacity: 0.8;
     }
 
     h3 {
@@ -121,11 +129,8 @@
 
     #courses-under {text-align: center}
 
-    #before-courses >h2 {
-        color: #404B55;
-        opacity: 0.8;
-    }
     #before-courses >p {
+        margin-bottom: 3%;
         color: #404B55;
         opacity: 0.8; 
         font-size: 22px; 
@@ -138,8 +143,9 @@
         padding: 2% 1.5% 5%;
         border-radius: 5px;
         margin-bottom: 3%;
-
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #courses {
@@ -180,29 +186,45 @@
 
     .box-title i {margin-right: 3%}
     .box-title a {margin-left: 8%}
-
-    #stop {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        margin-bottom: 0;
-        margin-left: 22%;
-        margin-right: 22%;
-        opacity: 0.5;
-        font-size: 15px;
-        font-weight: 700;
-        font-size: 15px;
-        font-weight: 700;
-    }
-
+    
     footer {
-        height: 120px;
+        height: 120;
         background-color: #f0f1f5;
     }
 
-    footer div i {
-        padding: 10px;
-        margin-top: 20px;
+    #foot-text {
+        display: flex;
+        padding-top: 2%;
+    }
+
+    #foot-icon {
+        padding-top: 0%;
+        display: flex;
+    }
+
+    #foot-icon a i {
         color: dimgrey;
+    }
+
+    #stop {
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 5% 0 0 0;
+        margin-left: 21%;
+        margin-right: 21%;
+        opacity: 0.7;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .foot-icon--social {
+        float: left;
+        padding: 5px;
+        margin: 0% 10px 0%;
+        color: #404B55;
+        opacity: 0.8;
+        font-size: 15px;
+        font-weight: 700;
     }
 }

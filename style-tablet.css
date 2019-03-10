@@ -1,13 +1,12 @@
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 580px) {
     body {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0;
         font-family: lato;
     }
 
     .border {
-        margin-left: 22%;
-        margin-right: 22%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     nav {
@@ -16,6 +15,7 @@
     }
 
     .nav {
+        display: none;
         float: left;
         padding: 5px;
         margin: 0% 10px 2%;
@@ -24,6 +24,9 @@
         font-size: 15px;
         font-weight: 700;
         text-decoration: none;
+    }
+    .ham-menu i{
+        color: black;
     }
 
     #logo {
@@ -57,7 +60,7 @@
         float: none;
         display: block;
         height: auto;
-        margin: 3% 39% 9%;
+        margin: 3% 25% 9%;
         font-size: 16px;
         text-decoration: none;
         text-align: center;
@@ -82,9 +85,9 @@
 
     .landing-page--in {
         position: relative;
-        max-width: 35%;
         top: 50%;
         transform: translateY(-50%);
+
 
     }
 
@@ -98,20 +101,24 @@
     .landing-page--in p {
         font-size: 20px;
         text-align: left;
+        margin-bottom: 3%
     }
 
-    .border {
+    #before-courses {
         font-size: 22px;
         font-weight: 400;
         line-height: 26px;
         text-align: center;
     }
 
-    .border h2 {
+    #before-courses >h2 {
         font-size: 42px; 
         font-weight: 900;
         line-height: 46px;
         text-align: center;
+        margin-top: 5%;
+        color: #404B55;
+        opacity: 0.8;
     }
 
     h3 {
@@ -121,11 +128,8 @@
 
     #courses-under {text-align: center}
 
-    #before-courses >h2 {
-        color: #404B55;
-        opacity: 0.8;
-    }
     #before-courses >p {
+        margin-bottom: 3%;
         color: #404B55;
         opacity: 0.8; 
         font-size: 22px; 
@@ -134,7 +138,7 @@
     }
     .cours {
         float: left;
-        width: 27%;
+        width: 45%;
         padding: 2% 1.5% 5%;
         border-radius: 5px;
         margin-bottom: 3%;
@@ -180,29 +184,44 @@
 
     .box-title i {margin-right: 3%}
     .box-title a {margin-left: 8%}
-
-    #stop {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        margin-bottom: 0;
-        margin-left: 22%;
-        margin-right: 22%;
-        opacity: 0.5;
-        font-size: 15px;
-        font-weight: 700;
-        font-size: 15px;
-        font-weight: 700;
-    }
-
+    
     footer {
         height: 120px;
         background-color: #f0f1f5;
     }
 
+    #foot-text {
+        display: flex;
+        padding-top: 2%;
+    }
+    
+    #foot-icon {
+        padding-top: 0%;
+        display: flex;
+    }
+
     footer div i {
-        padding: 10px;
-        margin-top: 20px;
         color: dimgrey;
+    }
+
+    #stop {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 5% 0 0 0;
+        margin-left: 21%;
+        margin-right: 21%;
+        opacity: 0.7;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .foot-icon--social {
+        float: left;
+        padding: 5px;
+        margin: 0% 10px 2%;
+        color: #404B55;
+        opacity: 0.8;
+        font-size: 15px;
+        font-weight: 700;
     }
 }
