@@ -1,0 +1,208 @@
+@media only screen and (min-width: 720px) {
+    body {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: lato;
+    }
+
+    .border {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+
+    nav {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .nav {
+        float: left;
+        padding: 5px;
+        margin: 0% 10px 2%;
+        color: #404B55;
+        opacity: 0.8;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    #logo {
+        float: left;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 2%;
+    }
+
+    .button {
+        float: left;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px #4b7c67;
+        background-color: #55b68b;
+        color: white;
+        text-decoration: none;
+    }
+    #button-nav {
+        box-shadow: none;
+        text-align: center;
+    }
+
+    #button-down {
+        float: none;
+        display: block;
+        height: auto;
+        margin: 3% 39% 9%;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #button-watch {
+        display: flex;
+        align-items: baseline;
+    }
+    #button-watch a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #button-margin {margin-right: 3%}
+
+    .landing-page {
+        height: 450px;
+        background-image: url("https://via.placeholder.com/1600x1067");
+        background-position: center;
+    }
+
+    .landing-page--in {
+        position: relative;
+        max-width: 35%;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .landing-page--in h1 {
+        font-size: 52px;
+        font-weight: 900;
+        line-height: 56px; 
+        text-align: left;
+    }
+
+    .landing-page--in p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .border {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .border h2 {
+        font-size: 42px; 
+        font-weight: 900;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size:19px;
+        font-weight: 900;
+    }
+
+    #courses-under {text-align: center}
+
+    #before-courses >h2 {
+        color: #404B55;
+        opacity: 0.8;
+    }
+    #before-courses >p {
+        color: #404B55;
+        opacity: 0.8; 
+        font-size: 22px; 
+        line-height: 26px;
+        font-weight: 400
+    }
+    .cours {
+        float: left;
+        width: 27%;
+        padding: 2% 1.5% 5%;
+        border-radius: 5px;
+        margin-bottom: 3%;
+
+        text-align: center;
+    }
+
+    #courses {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .gray-back {background-color: #525e6c}
+    .blue-back {background-color: #439fe0}
+    .green-back {background-color: #55b68b}
+    .white-text{color: white}
+
+    .button-cours {
+        float: none;
+        padding: 3% 4%;
+        border-style: solid;
+        border-color: white;
+        border-width: 3px;
+        box-shadow: none;
+        background: none;
+        font-size: 17px;
+    }
+
+    .box-text {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        opacity: 0.7;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .box-title {
+        margin-top: 5%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .box-title i {margin-right: 3%}
+    .box-title a {margin-left: 8%}
+
+    #stop {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 0;
+        margin-left: 22%;
+        margin-right: 22%;
+        opacity: 0.5;
+        font-size: 15px;
+        font-weight: 700;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    footer {
+        height: 120px;
+        background-color: #f0f1f5;
+    }
+
+    footer div i {
+        padding: 10px;
+        margin-top: 20px;
+        color: dimgrey;
+    }
+}
