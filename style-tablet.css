@@ -1,8 +1,5 @@
 @media only screen and (min-width: 580px) {
-    .border {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+    .border {margin: 0 5%}
 
     .ham-menu i {
         color: black;
@@ -35,8 +32,7 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0 5%;
     }
 
     .foot-icon--social {float: left}

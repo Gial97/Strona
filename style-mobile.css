@@ -3,10 +3,8 @@
         margin: 0;
         font-family: lato;
     }
-    .border {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+    
+    .border {margin: 0 1%}
 
     nav {
         display: flex;
@@ -52,6 +50,7 @@
         color: white;
         text-decoration: none;
     }
+
     #button-nav {    
         margin-left: 0;
         box-shadow: none;
@@ -136,6 +135,7 @@
         line-height: 26px;
         font-weight: 400
     }
+
     .cours {
         float: left;
         width: 100%;
