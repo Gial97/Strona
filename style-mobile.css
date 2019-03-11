@@ -25,9 +25,9 @@
         text-decoration: none;
     }
 
-    .ham-menu i{
-        font-size: 25px;
+    .ham-menu i {
         color: black;
+        font-size: 25px;
     }
 
     #logo {
@@ -52,7 +52,8 @@
         color: white;
         text-decoration: none;
     }
-    #button-nav {
+    #button-nav {    
+        margin-left: 0;
         box-shadow: none;
         text-align: center;
     }
@@ -61,7 +62,7 @@
         float: none;
         display: block;
         height: auto;
-        margin: 3% 15% 9%;
+        margin:  3% 20% 9%;
         font-size: 16px;
         text-decoration: none;
         text-align: center;
@@ -91,7 +92,7 @@
     }
 
     .landing-page--in h1 {
-        font-size: 52px;
+        font-size: 40px;
         font-weight: 900;
         line-height: 56px; 
         text-align: left;
@@ -137,7 +138,7 @@
     }
     .cours {
         float: left;
-        width: 95%;
+        width: 100%;
         padding: 2% 1.5% 5%;
         border-radius: 5px;
         margin-bottom: 3%;
@@ -146,13 +147,14 @@
 
     #courses {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
     .gray-back {background-color: #525e6c}
     .blue-back {background-color: #439fe0}
     .green-back {background-color: #55b68b}
+
     .white-text{color: white}
 
     .button-cours {
@@ -166,16 +168,16 @@
         font-size: 17px;
     }
 
-    .box-text {
-        margin-top: 7%;
-        margin-bottom: 7%;
-        opacity: 0.7;
-        font-size: 16px;
+    .box-title {
+        margin-top: 5%;
+        font-size: 14px;
         line-height: 20px;
     }
 
-    .box-title {
+    .box-text {
         margin-top: 5%;
+        margin-bottom: 7%;
+        opacity: 0.7;
         font-size: 16px;
         line-height: 20px;
     }
@@ -190,12 +192,14 @@
         justify-content: space-between;
         align-items: baseline;
     }
+
     #foot-text {
         padding-top: 1%;
         display: block;
         width: 100%;
         text-align: center;
     }
+
     #foot-icon {
         padding-top: 10%;
         display: block;
@@ -206,14 +210,16 @@
         margin: 0 5%;
         color: dimgrey;
     }
+
     #stop {
         justify-content: center;
         margin: 5% 0 0 0;
         padding-top: 1%;
-        opacity: 0.5;
+        opacity: 0.7;
         font-size: 15px;
         font-weight: 700;
     }
+
     .foot-icon--social {
         padding: 5px;
         margin: 0% 10px 2%;
