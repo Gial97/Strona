@@ -24,8 +24,8 @@
     }
     
     #foot-icon {
-        padding-top: 0%;
         display: flex;
+        padding-top: 0%;
     }
 
     #stop {
