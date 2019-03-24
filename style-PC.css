@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1200px) {
     .border {margin: 0 18%}
 
     .nav {display: flex}
@@ -27,6 +27,12 @@
         display: block;
         padding-top: 100%;
     }
+    h3 {font-size: 1.3vw}
+
+    .box-text {font-size: 16px;}
+    .box-title {font-size: 1.1vw}
+    
+    .button-cours {font-size: 1.3vmax}
 
     .content {
         position: absolute;
@@ -42,5 +48,5 @@
         margin-right: 5%;
     }
 
-    #stop {margin: 0 18%}
+    #foot {margin: 0 18%}
 }

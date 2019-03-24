@@ -34,11 +34,13 @@ nav {
     font-weight: 700;
 }
 
-#head {
+header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 2%;
+    padding-top: 1%;
+    min-height: 28px;
+    height: 5vh;
 }
 
 .button {
@@ -80,7 +82,7 @@ nav {
 #button-margin {margin-right: 3%}
 
 .landing-page {
-    height: 1080px;
+    height: 95vh;
     background-image: url("https://via.placeholder.com/1600x1067");
     background-position: center;
 }
@@ -160,7 +162,7 @@ h3 {
 
 .button-cours {
     float: none;
-    padding: 3% 4%;
+    padding: 2% 5%;
     border-style: solid;
     border-color: white;
     border-width: 3px;
@@ -170,7 +172,7 @@ h3 {
 }
 
 .box-title {
-    margin-top: 5%;
+    margin-top: 4%;
     font-size: 14px;
     line-height: 20px;
 }
@@ -199,7 +201,7 @@ footer {
     padding-top: 1%;
     width: 100%;
     text-align: center;
-    }
+}
 
 #foot-icon {
     padding-top: 10%;
@@ -212,7 +214,7 @@ footer div i {
     color: dimgrey;
 }
 
-#stop {
+#foot {
     justify-content: center;
     margin: 5% 0 0 0;
     padding-top: 1%;

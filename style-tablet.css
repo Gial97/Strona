@@ -12,7 +12,7 @@
 
     #courses {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
     .cours {
@@ -29,6 +29,9 @@
         display: block;
         padding-top: 100%;
     }
+     h3 {font-size: 1.8vw}
+
+     .button-cours {font-size: 1.8vmax}
 
     .content {
         position: absolute;
@@ -49,7 +52,7 @@
         width: 100%;
         float: left;
         display: block;
-        font-size: 16px;
+        font-size: 1.7vw;
     }
 
     #foot-text {
@@ -62,7 +65,7 @@
         padding-top: 0%;
     }
 
-    #stop {
+    #foot {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
